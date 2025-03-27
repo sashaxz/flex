@@ -1,0 +1,119 @@
+.main{
+    background-color: black;
+}
+.main-flex{
+    display: flex;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(229, 255, 0, 0.618);
+    
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(47, 0, 255, 0.4);
+}
+.flex-direction-row{
+    display: flex;
+    flex-direction: reverse;
+    /*flex-direction: column;
+        flex-direction: row-reverse;
+      flex-direction: column-reverse;
+    */
+}
+.flex-direction-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.ROW{
+    background-color: black;
+    margin-bottom: 10px;
+}
+.ROW2{
+    background-color: rgb(44, 23, 23);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ROW3{
+    background-color: rgb(78, 38, 38);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ROW4{
+    background-color: rgb(57, 4, 4);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ROW5{
+    background-color: rgb(38, 57, 4);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.whitetext{
+    color: white;
+    font-weight: bolder;
+}
+.flex-direction-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-direction-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.modzraoba{
+    margin-top: 25px;
+    margin-left:  500px;
+    margin-bottom: 25px;
+}
+
+.flex-wrap-nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.flex-wrap-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.flex-wrap-wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.flex-flow-row-wrap{
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex-flow-column-wrap{
+    display: flex;
+    flex-flow: column wrap;
+}
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+}
+.justify-content-flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
+.justify-content-flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.justify-content-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+.justify-content-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.justify-content-space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
